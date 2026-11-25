@@ -1,12 +1,12 @@
 dataset:
   name: Global Career Development Index
-  version: "1.1.0"
+  version: "1.2.0"
   description_zh: 全球职业发展指数数据集，覆盖34个评分维度、趋势与复合指数
   description_en: Global Career Development Index dataset covering 34 scoring dimensions, trends, and composite index
-  generated_date: "2026-04-13"
-  data_snapshot_date: "2026-04-13"
+  generated_date: "2026-11-26"
+  data_snapshot_date: "2026-11-26"
   source_period: "2000-2026"
-  source_anchors: "ILO/OECD/O*NET/WEF/McKinsey/Glassdoor/LinkedIn (cutoff: 2025-Q4)"
+  source_anchors: "ILO/OECD/O*NET/WEF/McKinsey/Glassdoor/LinkedIn (cutoff: 2026-Q3 / OECD Employment Outlook 2026-07)"
   total_columns: 61
   maintenance_note: |
     AI agents: 检查 generated_date 和 data_snapshot_date 判断数据新鲜度。

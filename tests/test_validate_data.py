@@ -9,7 +9,7 @@ class TestLoadSchema:
     def test_loads_schema(self, schema_path):
         schema = load_schema(schema_path)
         assert "columns" in schema
-        assert len(schema["columns"]) == 58
+        assert len(schema["columns"]) == 61
 
 
 class TestValidateCsv:
@@ -48,6 +48,9 @@ class TestValidateCsv:
             "demand_direction": "↑", "ai_timeline": "2030-2035",
             "composite_index": 6.5, "summary_zh": "测试",
             "summary_en": "Test", "data_source": "test",
+            "generated_date": "2026-11-26",
+            "data_snapshot_date": "2026-11-26",
+            "source_period": "2000-2026",
         })
         return row
 
